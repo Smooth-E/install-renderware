@@ -1,9 +1,9 @@
 # The complete RnderWare Graphics SDK and RenderWare Studio setup guide
 ## Configuring a VirtualBox virtual machine
 1. Downaload VirtualBox 6.0.2.4 for your system [here](https://www.virtualbox.org/wiki/Download_Old_Builds_6_0) and install it.
-> We need the older version of VirtualBox in order to use 3D acceleration in Windows XP
+   > We need the older version of VirtualBox in order to use 3D acceleration in Windows XP
 2. After the instalation open the installed VirtualBox and create a new VM. Name it as you want. Under `Type` select `Microsoft Windows`, under `Version` select `Windows XP 32-bit`.
-3. Click 'Next'. Assign as much RAM as you want for a VM tohave. Click on `Next` again. Tick `Create Virtual Hard Disk Now`. Click `Create`. Select `VDI` and click `Next`. In the next dialogue select `Dynamically allocated` and click on `Next` yet again. Your virtual disk image will be saved in the directory of a VM by default, better leave it as it is. Drag a slider to adjust the amount of space on a virtual disk. As it is allocated dynamically, you can select something like 500GB to have no extra troubles in future. After you are done, hit `Create`.
+3. Click `Next`. Assign as much RAM as you want for a VM tohave. Click on `Next` again. Tick `Create Virtual Hard Disk Now`. Click `Create`. Select `VDI` and click `Next`. In the next dialogue select `Dynamically allocated` and click on `Next` yet again. Your virtual disk image will be saved in the directory of a VM by default, better leave it as it is. Drag a slider to adjust the amount of space on a virtual disk. As it is allocated dynamically, you can select something like 500GB to have no extra troubles in future. After you are done, hit `Create`.
 4. Now click on `Settings`, select `System` on the left hand side, drag a `Video Memory` slider up to it's limit of 128MB. Make sure `VBox VGA` is selected under the `Graphics Controller`. And at the end, tick `Enable 3D Acceleration` **(IMPORTANT)**
 5. Go under `Storage`, click on the optical drive marked as `Empty`. On the right side you will see the CD icon with a little arrow below it, click on it and select *Windows XP* ***.iso*** file which you can download [here](https://archive.org/details/WinXPProSP3x86).
 > Here was a lot of text, but a small amount of actions. We are done tweaking the VM now.
@@ -31,8 +31,8 @@
 9. Follow all the instructions and leave all the fields as they set by default. Continue to the final step, where it will say `Start RenderWare studio` and go tutorial to the next step, leaving the installer opened.
 10. Navigate back to the root of downloaded content and then go under `RenderWareStudioCrack` and copy the .dll laying here.
 11. Now go to `C: \ RW \ Studio \ Programs` and paste the copied .dll here replacing the original one.
-12. Go back to installer and click `Finish`. RenderWare Stdio should open up now.
-> Now let's install the RW Graphics SDK as it contains some useful tools
+12. Go back to installer and click `Finish`. RenderWare Stdio should open up now. 
+    > Now let's install the RW Graphics SDK as it contains some useful tools
 13.  Navigate to `Renderware Graphics3.7sdkandstudio2.01.rar \ Renderware Studio 3.7 SDK for Windows.rar \ Renderware 3.7 SDK (For Windows) Full \ Renderware Graphics SDK 3.7` under the downloaded extracted .zip and execute the `setup.exe` here.
 14. Follow the onscreen instructions to install the SDK and finish the setup by deselecting the `Check changelog and website` at the end.
 15. Navigate to the `License` folder in a parent folder of ` Renderware Graphics SDK 3.7` and copy the file laying here. Go to `C: \ RW \ shared \ openexport \ bin` and replace the existing file by pasting the one you just copied.
