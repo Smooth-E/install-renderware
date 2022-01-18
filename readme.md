@@ -1,8 +1,8 @@
 # The complete RnderWare Graphics SDK and RenderWare Studio setup guide
 ## Configuring a VirtualBox virtual machine
-1. Downaload VirtualBox 6.0.2.4 for your system here and install it.
+1. Downaload VirtualBox 6.0.2.4 for your system [here](https://www.virtualbox.org/wiki/Download_Old_Builds_6_0) and install it.
 > We need the older version of VirtualBox in order to use 3D acceleration in Windows XP
-2. After the instalation open the installed VirtualBox and create a new VM. Name it as you want. Under 'type' select 'Microsoft Windows', under 'Version' select 'Windows XP 32-bit'.
+2. After the instalation open the installed VirtualBox and create a new VM. Name it as you want. Under `Type` select `Microsoft Windows`, under `Version` select `Windows XP 32-bit`.
 3. Click 'Next'. Assign as much RAM as you want for a VM tohave. Click on `Next` again. Tick `Create Virtual Hard Disk Now`. Click `Create`. Select `VDI` and click `Next`. In the next dialogue select `Dynamically allocated` and click on `Next` yet again. Your virtual disk image will be saved in the directory of a VM by default, better leave it as it is. Drag a slider to adjust the amount of space on a virtual disk. As it is allocated dynamically, you can select something like 500GB to have no extra troubles in future. After you are done, hit `Create`.
 4. Now click on `Settings`, select `System` on the left hand side, drag a `Video Memory` slider up to it's limit of 128MB. Make sure `VBox VGA` is selected under the `Graphics Controller`. And at the end, tick `Enable 3D Acceleration` **(IMPORTANT)**
 5. Go under `Storage`, click on the optical drive marked as `Empty`. On the right side you will see the CD icon with a little arrow below it, click on it and select *Windows XP* ***.iso*** file which you can download [here](https://archive.org/details/WinXPProSP3x86).
