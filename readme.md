@@ -1,4 +1,4 @@
-# The complete RnderWare Graphics SDK and RenderWare Studio setup guide
+# RnderWare Graphics SDK and RenderWare Studio setup guide
 ## Configuring a VirtualBox virtual machine
 1. Downaload VirtualBox 6.0.2.4 for your system [here](https://www.virtualbox.org/wiki/Download_Old_Builds_6_0) and install it.
    > We need the older version of VirtualBox in order to use 3D acceleration in Windows XP
